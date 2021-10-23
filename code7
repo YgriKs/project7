@@ -1,0 +1,15 @@
+using System;
+
+class Program {
+    static void Main(string[] args) {
+        int p = Convert.ToInt32(Console.ReadLine());
+		int sum = 1;
+		int a = 1;
+		while (a <= p)
+		{
+			sum = sum * a;
+			a += 1;
+		}
+		Console.WriteLine(sum);
+    }
+}
